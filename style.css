@@ -3424,3 +3424,276 @@ body {
 .pilihan-card:hover {
     transform: translateY(-5px);
 }
+
+/* =========================================
+   MOBILE MODE
+   Membuat website lebih compact di HP
+========================================= */
+
+@media (max-width: 600px) {
+
+    /* Jarak antar section */
+    .intro,
+    .jenjang-section,
+    .alasan-section,
+    .program-section,
+    .ekskul-section,
+    .album-section,
+    .biaya-section,
+    .pendaftaran-section,
+    .syarat-section,
+    .operasional-section,
+    .formulir-section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+
+    /* Judul section */
+    .section-title h2,
+    .section-heading h2,
+    .alasan-header h2,
+    .program-header h2,
+    .ekskul-title h2,
+    .album-heading h2,
+    .biaya-heading h2,
+    .pendaftaran-heading h2,
+    .syarat-heading h2,
+    .operasional-heading h2 {
+        font-size: 26px;
+        line-height: 1.25;
+        margin-bottom: 8px;
+    }
+
+
+    /* Deskripsi */
+    .section-title p,
+    .section-heading p,
+    .alasan-header p,
+    .program-header p,
+    .ekskul-title p,
+    .album-heading p,
+    .biaya-heading p,
+    .pendaftaran-heading p,
+    .syarat-heading p,
+    .operasional-heading p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+
+    /* Container */
+    .container,
+    .intro-container,
+    .alasan-container,
+    .program-container,
+    .ekskul-container,
+    .album-container,
+    .biaya-container,
+    .pendaftaran-container,
+    .syarat-container,
+    .operasional-container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    /* Card lebih kecil */
+    .alasan-card,
+    .program-card,
+    .operasional-card,
+    .formulir-card {
+        padding: 20px 18px;
+        border-radius: 18px;
+    }
+
+
+    /* Jarak grid */
+    .alasan-grid,
+    .program-grid,
+    .formulir-grid {
+        gap: 12px;
+    }
+
+
+    /* Program unggulan */
+    .program-card {
+        min-height: auto;
+    }
+
+    .program-number {
+        font-size: 12px;
+    }
+
+    .program-icon {
+        font-size: 26px;
+    }
+
+    .program-card h3 {
+        font-size: 17px;
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
+
+    .program-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+
+    /* Keunggulan */
+    .alasan-card h3 {
+        font-size: 17px;
+    }
+
+    .alasan-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .alasan-icon {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+
+    /* Ekstrakurikuler */
+    .ekskul-panel {
+        padding: 18px;
+        border-radius: 18px;
+    }
+
+    .ekskul-panel-header {
+        margin-bottom: 15px;
+    }
+
+    .ekskul-panel-header h3 {
+        font-size: 18px;
+    }
+
+    .ekskul-item {
+        padding: 9px 0;
+    }
+
+
+    /* Album */
+    .album-grid {
+        gap: 8px;
+    }
+
+    .album-item {
+        border-radius: 12px;
+    }
+
+
+    /* Biaya */
+    .biaya-card-drive {
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    .biaya-drive-content h3 {
+        font-size: 19px;
+    }
+
+
+    /* Alur pendaftaran */
+    .alur-wrapper {
+        gap: 20px;
+    }
+
+    .alur-step {
+        padding: 16px;
+    }
+
+    .alur-step h3 {
+        font-size: 17px;
+    }
+
+    .alur-step p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+
+    /* Rekening */
+    .rekening-card {
+        padding: 20px;
+        border-radius: 18px;
+    }
+
+    .nominal {
+        font-size: 24px;
+    }
+
+
+    /* Syarat */
+    .syarat-card {
+        border-radius: 18px;
+    }
+
+    .syarat-list {
+        gap: 8px;
+    }
+
+    .syarat-item {
+        padding: 10px 12px;
+    }
+
+
+    /* Kontak */
+    .operasional-grid {
+        gap: 12px;
+    }
+
+    .operasional-card {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .operasional-icon {
+        flex-shrink: 0;
+        font-size: 25px;
+    }
+
+    .operasional-content h3 {
+        font-size: 17px;
+    }
+
+    .operasional-content p {
+        font-size: 13px;
+    }
+
+
+    /* Formulir */
+    .formulir-card {
+        padding: 20px;
+    }
+
+    .formulir-icon {
+        width: 58px;
+        height: 58px;
+        font-size: 28px;
+        border-radius: 16px;
+        margin-bottom: 12px;
+    }
+
+    .formulir-card h3 {
+        font-size: 19px;
+    }
+
+    .formulir-card p {
+        min-height: auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .btn-formulir {
+        padding: 11px 15px;
+        border-radius: 12px;
+    }
+
+}

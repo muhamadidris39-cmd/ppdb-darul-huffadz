@@ -3348,3 +3348,79 @@ footer p {
     }
 
 }
+
+/* =========================================
+   BACKGROUND CERIA & ISLAMI
+========================================= */
+
+body {
+    background:
+        radial-gradient(circle at 10% 10%, rgba(34, 197, 94, 0.08) 0 80px, transparent 81px),
+        radial-gradient(circle at 90% 20%, rgba(250, 204, 21, 0.10) 0 100px, transparent 101px),
+        radial-gradient(circle at 15% 70%, rgba(59, 130, 246, 0.06) 0 90px, transparent 91px),
+        radial-gradient(circle at 85% 80%, rgba(168, 85, 247, 0.06) 0 100px, transparent 101px),
+        #f8fafc;
+}
+
+/* Pola dekorasi lembut */
+.intro,
+.jenjang-section,
+.alasan-section,
+.program-section,
+.ekskul-section,
+.album-section,
+.biaya-section,
+.pendaftaran-section,
+.syarat-section,
+.operasional-section,
+.formulir-section {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ornamen lingkaran */
+.intro::before,
+.program-section::before,
+.formulir-section::before {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(34, 197, 94, 0.07);
+    top: 30px;
+    left: -80px;
+    pointer-events: none;
+}
+
+.intro::after,
+.program-section::after,
+.formulir-section::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: rgba(250, 204, 21, 0.08);
+    bottom: 30px;
+    right: -100px;
+    pointer-events: none;
+}
+
+/* Card dibuat lebih hidup */
+.formulir-card,
+.alasan-card,
+.program-card,
+.operasional-card,
+.syarat-card,
+.pilihan-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formulir-card:hover,
+.alasan-card:hover,
+.program-card:hover,
+.operasional-card:hover,
+.pilihan-card:hover {
+    transform: translateY(-5px);
+}
